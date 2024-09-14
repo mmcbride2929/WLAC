@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* hero background image */
+
+.hero-bg {
+  background-image: url('./assets/hero2.jpg');
+}
+
+.mobile-only {
+  display: inline-block;
+
+  @media (min-width: 640px) {
+    display: none;
+  }
+}
