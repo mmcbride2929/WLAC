@@ -1,7 +1,7 @@
 const Sidebar = ({ setSidebarActive }) => {
   return (
     <div>
-      <div className="flex h-screen flex-col  justify-between  bg-blue-600">
+      <div className="flex h-screen flex-col  justify-between  bg-white-600">
         <div className="px-4 py-4 h-full ">
           <button
             className=" block rounded bg-white p-2.5 text-black transition hover:text-gray-900/75 md:hidden"
@@ -25,7 +25,7 @@ const Sidebar = ({ setSidebarActive }) => {
               <a
                 onClick={() => setSidebarActive(false)}
                 href="#about"
-                className="block rounded-lg px-4 py-2 text-5xl  font-medium text-white hover:text-black hover:bg-white "
+                className="block rounded-lg px-4 py-2 text-5xl  font-medium text-red-500 hover:text-black hover:bg-white"
               >
                 About
               </a>
@@ -34,7 +34,7 @@ const Sidebar = ({ setSidebarActive }) => {
               <a
                 onClick={() => setSidebarActive(false)}
                 href="#services"
-                className="block rounded-lg px-4 py-2 text-5xl  font-medium text-white hover:text-black hover:bg-white "
+                className="block rounded-lg px-4 py-2 text-5xl  font-medium text-blue-500 hover:text-black hover:bg-white "
               >
                 Services
               </a>
@@ -44,9 +44,9 @@ const Sidebar = ({ setSidebarActive }) => {
               <a
                 onClick={() => setSidebarActive(false)}
                 href="#work"
-                className="block rounded-lg px-4 py-2 text-5xl font-medium text-white hover:text-black hover:bg-white "
+                className="block rounded-lg px-4 py-2 text-5xl font-medium text-orange-500 hover:text-black hover:bg-white "
               >
-                Work
+                FAQ
               </a>
             </li>
 
@@ -54,7 +54,7 @@ const Sidebar = ({ setSidebarActive }) => {
               <a
                 onClick={() => setSidebarActive(false)}
                 href="#contact"
-                className="block rounded-lg px-4 py-2 text-5xl font-medium text-white hover:text-black hover:bg-white "
+                className="block rounded-lg px-4 py-2 text-5xl font-medium text-green-500 hover:text-black hover:bg-white "
               >
                 Contact
               </a>

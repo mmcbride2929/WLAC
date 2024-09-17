@@ -5,7 +5,7 @@ import Features from './components/Features/Features'
 
 import Nav from './components/Nav/Nav'
 import { useState } from 'react'
-import Work from './components/Work/Work'
+import FAQ from './components/FAQ/FAQ'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
@@ -19,7 +19,7 @@ const App = () => {
           <Home />
           <About />
           <Features />
-          <Work />
+          <FAQ />
           <Contact />
           <Footer />
         </>

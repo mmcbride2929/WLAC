@@ -1,9 +1,10 @@
 import Sidebar from './Sidebar'
 import { Link } from 'react-scroll'
+import rainbowLogo from '../../assets/rainbow-logo.png'
 
 const Nav = ({ sidebarActive, setSidebarActive }) => {
   return (
-    <header className="bg-blue-700">
+    <header className="bg-white">
       {sidebarActive ? (
         <Sidebar
           setSidebarActive={setSidebarActive}
@@ -11,9 +12,12 @@ const Nav = ({ sidebarActive, setSidebarActive }) => {
         />
       ) : (
         <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8 justify-between text-white">
-          <a className="block font-bold" href="/">
-            FERGUSON INC.
-          </a>
+          <div className="flex items-center">
+            <a className="flex items-center font-bold text-orange-600" href="/">
+              <img className="w-16" src={rainbowLogo} alt="" />
+              <span>With Love & Care</span>
+            </a>
+          </div>
 
           <div className="flex items-center gap-4  ">
             <nav aria-label="Global" className="hidden md:block">
@@ -21,7 +25,7 @@ const Nav = ({ sidebarActive, setSidebarActive }) => {
                 <li>
                   <Link to="about" smooth={true} duration={500}>
                     <a
-                      className="text-white transition border-b border-solid border-transparent hover:border-white hover:border-b-2 cursor-pointer"
+                      className="text-red-500 transition border-b border-solid border-transparent hover:border-white hover:border-b-2 cursor-pointer"
                       href="#about"
                     >
                       About
@@ -31,7 +35,7 @@ const Nav = ({ sidebarActive, setSidebarActive }) => {
                 <li>
                   <Link to="services" smooth={true} duration={500}>
                     <a
-                      className="text-white transition border-b border-solid border-transparent hover:border-white hover:border-b-2 cursor-pointer"
+                      className="text-blue-500 transition border-b border-solid border-transparent hover:border-white hover:border-b-2 cursor-pointer"
                       href="#services"
                     >
                       Services
@@ -41,10 +45,10 @@ const Nav = ({ sidebarActive, setSidebarActive }) => {
                 <li>
                   <Link to="work" smooth={true} duration={500}>
                     <a
-                      className="text-white transition border-b border-solid border-transparent hover:border-white hover:border-b-2 cursor-pointer"
+                      className="text-orange-500 transition border-b border-solid border-transparent hover:border-white hover:border-b-2 cursor-pointer"
                       href="work"
                     >
-                      Work
+                      FAQ
                     </a>
                   </Link>
                 </li>
@@ -52,7 +56,7 @@ const Nav = ({ sidebarActive, setSidebarActive }) => {
                 <li>
                   <Link to="contact" smooth={true} duration={500}>
                     <a
-                      className="text-white transition border-b border-solid border-transparent hover:border-white hover:border-b-2 cursor-pointer"
+                      className="text-green-500 transition border-b border-solid border-transparent hover:border-white hover:border-b-2 cursor-pointer"
                       href="#contact"
                     >
                       Contact
@@ -62,7 +66,7 @@ const Nav = ({ sidebarActive, setSidebarActive }) => {
               </ul>
             </nav>
             <button
-              className="block rounded bg-white p-2.5 text-black transition hover:text-gray-900/75 md:hidden"
+              className="block rounded bg-white p-2.5 text-orange-500 transition hover:text-gray-900/75 md:hidden"
               onClick={() => setSidebarActive(true)}
             >
               <span className="sr-only">Toggle menu</span>

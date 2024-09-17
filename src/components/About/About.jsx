@@ -1,4 +1,5 @@
-import image from '../../assets/IMG_0273.jpg'
+import { Link } from 'react-scroll'
+import image from '../../assets/swingset.jpg'
 
 const About = () => {
   return (
@@ -6,24 +7,46 @@ const About = () => {
       id="about"
       className="cta-sec relative max-w-screen-xl mx-auto py-12 px-4 md:px-8"
     >
-      <div className="absolute top-0 left-0 w-full h-full bg-white opacity-40"></div>
-      <div className="relative z-10 gap-5 items-center lg:flex">
-        <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
-          <img src={image} alt="" className="w-full " />
+
+  <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
+      <div class="relative z-10 lg:py-16">
+        <div class="relative h-64 sm:h-80 lg:h-full">
+          <img
+            alt=""
+            src={image}
+            class="absolute inset-0 h-full w-full object-cover"
+          />
         </div>
-        <div className="flex-1 max-w-lg px-0 lg:px-10 py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-left">
-          <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl mt-8 lg:mt-2">
-            Welcome to <span className="text-blue-700">Ferguson Inc.</span>
-          </h3>
-          <p className="text-gray-500 leading-relaxed mt-3">
-            Ferguson Inc. was established in September of 2010 in Atlanta,
-            Georgia, with the capability of undertaking jeprocts that range from
-            both new and old electrical and general construction installations,
-            repairs, and restorations. We are licensed, bonded, and insured with
-            the State of Georgia.
+      </div>
+
+      <div class="relative flex items-center bg-orange-500 ">
+        <span
+          class="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-orange-500"
+        ></span>
+
+        <div class="p-8 sm:p-16 lg:p-24">
+          <h2 class="text-2xl font-bold sm:text-3xl text-white">
+            About the company and what makes it special, hours, etc.
+          </h2>
+
+          <p class="mt-4 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est
+            esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam
+            architecto eius quis quibusdam fugiat dicta.
+          </p>
+
+          <p class="mt-4 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est
+            esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam
+            architecto eius quis quibusdam fugiat dicta.
           </p>
         </div>
       </div>
+    </div>
+  </div>
+
+
     </section>
   )
 }

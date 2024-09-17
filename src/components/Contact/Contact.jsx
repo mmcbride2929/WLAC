@@ -22,7 +22,7 @@ export default () => {
           />
         </svg>
       ),
-      contact: 'support@fergusoninc.net',
+      contact: 'lamesha.miller51@yahoo.com',
     },
     {
       icon: (
@@ -41,7 +41,7 @@ export default () => {
           />
         </svg>
       ),
-      contact: '+1 (888) 636-9406 ext 101',
+      contact: '(330)-604-3092 ',
     },
     {
       icon: (
@@ -65,7 +65,7 @@ export default () => {
           />
         </svg>
       ),
-      contact: 'Atlanta, Georgia',
+      contact: 'Akron, Ohio',
     },
   ]
 
@@ -108,11 +108,11 @@ export default () => {
   }
 
   return (
-    <main className="py-20 md:py-14 bg-blue-700" id="contact">
-      <div className="max-w-screen-xl mx-auto px-4 text-white md:px-8">
+    
+    <main className="bg-orange-500" id="contact">
+      <div className="max-w-screen-xl mx-auto px-4 text-white py-24 md:px-8">
         <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none">
           <div className="max-w-lg space-y-3">
-            <h3 className="text-blue-700 font-semibold">Contact</h3>
             <p className="text-white text-3xl font-semibold sm:text-4xl">
               Let us know how we can help
             </p>
@@ -131,7 +131,7 @@ export default () => {
               </ul>
             </div>
           </div>
-          <div className="flex-1 mt-12 sm:max-w-lg lg:max-w-md">
+          <div className="flex-1 mt-12 lg:mt-0 sm:max-w-lg lg:max-w-md">
             <form
               ref={form}
               onSubmit={handleSubmit}
@@ -145,7 +145,7 @@ export default () => {
                   type="text"
                   name="from_name"
                   required
-                  className="w-full mt-2 px-3 py-2 text-black  outline-none border border-white focus:border-black shadow focus:shadow-xl rounded-lg"
+                  className="w-full mt-2 px-3 py-2 text-black  outline-none border border-white shadow focus:shadow-xl rounded-lg"
                 />
               </div>
               <div>
@@ -156,7 +156,7 @@ export default () => {
                   type="email"
                   name="email_id"
                   required
-                  className="w-full mt-2 px-3 py-2 text-black  outline-none border border-white focus:border-black shadow focus:shadow-xl rounded-lg"
+                  className="w-full mt-2 px-3 py-2 text-black  outline-none border border-white shadow focus:shadow-xl rounded-lg"
                 />
               </div>
 
@@ -167,10 +167,10 @@ export default () => {
                   required
                   name="message"
                   placeholder="Enter your message..."
-                  className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none text-black outline-none border border-white focus:border-black shadow focus:shadow-xl rounded-lg"
+                  className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none text-black outline-none border border-white shadow focus:shadow-xl rounded-lg"
                 ></textarea>
               </div>
-              <button className="max-w-lg px-4 py-2 text-blue-700 font-medium bg-white  hover:bg-gray-200 active:bg-blue-700 rounded-lg duration-150">
+              <button className="max-w-lg px-4 py-2 text-orange-500 font-medium bg-white hover:bg-gray-200  rounded-lg duration-150 shadow">
                 Submit
               </button>
               <ToastContainer />
