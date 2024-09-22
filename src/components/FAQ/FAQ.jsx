@@ -9,7 +9,7 @@ const Work = () => {
         </h1>
         <div className="flow-root">
           <div className="-my-8 divide-y divide-black-500 ">
-            <details className="group py-8 [&_summary::-webkit-details-marker]:hidden " open>
+            <details className="group py-8 [&_summary::-webkit-details-marker]:hidden ">
               <summary className="flex cursor-pointer items-center justify-between ">
                 <h2 className="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
                   <span className="relative size-5 shrink-0">
@@ -23,7 +23,7 @@ const Work = () => {
                 explicabo consequuntur distinctio corporis earum similique!
               </p>
             </details>
-            <details className="group py-8 [&_summary::-webkit-details-marker]:hidden border-b border-black-500" open>
+            <details className="group py-8 [&_summary::-webkit-details-marker]:hidden border-b border-black-500">
               <summary className="flex cursor-pointer items-center justify-between t">
                 <h2 className="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
                   <span className="relative size-5 shrink-0">
@@ -36,7 +36,7 @@ const Work = () => {
                 in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis
                 explicabo consequuntur distinctio corporis earum similique!
               </p>
-            </details><details className="group py-8 [&_summary::-webkit-details-marker]:hidden border-b border-black-500" open>
+            </details><details className="group py-8 [&_summary::-webkit-details-marker]:hidden border-b border-black-500">
               <summary className="flex cursor-pointer items-center justify-between text-gray-900">
                 <h2 className="text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
                   <span className="relative size-5 shrink-0">

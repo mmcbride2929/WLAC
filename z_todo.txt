@@ -2,6 +2,7 @@
 
 
 - Find a better font for the site
-
+- close faq by default
+- faq button doesnt work
 - set up the email thing
 - fill in all of the words

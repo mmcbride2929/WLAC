@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 className="text-3xl font-extrabold sm:text-5xl">With Love & Care</h1>
 
           <p className="mt-2  sm:text-xl/relaxed max-w-xs md:max-w-md">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor idsrom ut londalore magna aliqua.
+          We provide home-based childcare and transportation, where every child feels important and valued. Our small, structured environment fosters learning, fun, and growth in a safe and loving space.
           </p>
 
           <div className="mt-12 flex flex-wrap justify-center gap-4 text-center ">

@@ -18,8 +18,8 @@ const Features = () => {
             esse numquam odio deleniti, beatae, magni do.
           </p>
 
-          <Link to="faq" smooth={true} duration={500}>
-            <a className="text-white hover:underline inline-flex items-center mt-4 cursor-pointer">
+          <Link to="work" smooth={true} duration={500}>
+            <a className="text-white hover:underline inline-flex items-center mt-4 cursor-pointer" href="work">
               Frequently Asked Questions
               <svg
                 fill="none"

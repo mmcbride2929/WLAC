@@ -27,19 +27,15 @@ const About = () => {
 
         <div class="p-8 sm:p-16 lg:p-24">
           <h2 class="text-2xl font-bold sm:text-3xl text-white">
-            About the company and what makes it special, hours, etc.
+            Our dedication to childcare
           </h2>
 
-          <p class="mt-4 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est
-            esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam
-            architecto eius quis quibusdam fugiat dicta.
+          <p class="mt-4 text-white">    
+          We are a home-based daycare that’s committed to providing the best care for children, offering a structured, learning-focused environment with small group sizes.
           </p>
 
           <p class="mt-4 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est
-            esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam
-            architecto eius quis quibusdam fugiat dicta.
+          What sets us apart is our focus on making every child feel important. We create a fun, educational, and mentor-driven atmosphere. Our hours are Monday through Friday, from 7 A.M. to midnight, and weekends from 7 A.M. to 6 P.M.
           </p>
         </div>
       </div>
