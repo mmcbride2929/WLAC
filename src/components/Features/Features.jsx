@@ -12,10 +12,7 @@ const Features = () => {
             Services We Provide
           </h1>
           <p className="leading-relaxed text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est
-            esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam
-            architecto eius quis quibusdam fugiat dicta.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est
-            esse numquam odio deleniti, beatae, magni do.
+            We specialize in providing safe, reliable, and convenient transportation and childcare services. Whether you need a ride to work, a pickup from the store, or a trusted partner for your child’s daycare drop-off, we’ve got you covered. Our services also include rides to appointments, ensuring your family stays on schedule. Let us handle the transportation while you focus on what matters most!
           </p>
 
           <Link to="work" smooth={true} duration={500}>
@@ -41,22 +38,16 @@ const Features = () => {
           </h2>
           <nav className="flex flex-wrap list-none -mb-1 text-sm lg:text-md">
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <p className="text-white ">Lorem Ipsum</p>
+              <p className="text-white ">Rides to Work</p>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <p className="text-white ">Lorem Ipsum</p>
+              <p className="text-white ">Work Pick Up</p>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <p className="text-white ">Lorem Ipsum</p>
+              <p className="text-white ">Childcare Dropoff</p>
             </li>
             <li className="lg:w-1/3 mb-1 w-1/2">
-              <p className="text-white ">Lorem Ipsum</p>
-            </li>
-            <li className="lg:w-1/3 mb-1 w-1/2">
-              <p className="text-white ">Lorem Ipsum</p>
-            </li>
-            <li className="lg:w-1/3 mb-1 w-1/2">
-              <p className="text-white ">Lorem Ipsum</p>
+              <p className="text-white ">Appointments</p>
             </li>
           </nav>
         </div>

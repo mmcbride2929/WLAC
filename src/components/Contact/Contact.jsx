@@ -117,7 +117,7 @@ export default () => {
               Let us know how we can help
             </p>
             <p>
-              We’re here to help and answer any question or proposals you might
+              We’re here to help and answer any question or concerns you might
               have. We look forward to hearing from you.
             </p>
             <div>
